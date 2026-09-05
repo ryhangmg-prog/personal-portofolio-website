@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects page</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;1,500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<div class="app">
+  <aside class="sidebar">
+    <div>
+      <div style="display:flex;align-items:center;justify-content:space-between;">
+        <a href="index.html" class="brand"><span class="name">Naldi</span></a>
+        <button class="menu-toggle" id="menuToggle">Menu</button>
+      </div>
+      <div class="divider"></div>
+      <nav class="primary-nav" id="primaryNav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="words.html">Words</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="sidebar-foot">
+      <span>Medan, Indonesia</span>
+    </div>
+  </aside>
+
+  <main class="content" id="main">
+    <section class="page">
+      <p class="eyebrow">See My Mographs!</p>
+      <h1 class="page-title">My Projects</h1>
+      <p class="lede">Click any video to play it with sound.</p>
+
+      <div class="project-grid">
+
+        <!-- ===== CARD 1 ===== -->
+        <article class="project-card">
+          <div class="video-wrap">
+            <!-- ✏️ EDIT HERE: change "videos/project-1.mp4" to your own video file -->
+            <video muted autoplay loop playsinline>
+              <source src="video 1.mp4" type="video/mp4">
+            </video>
+            <div class="play-hint">🔊 Tap to play with sound</div>
+          </div>
+          <!-- ✏️ EDIT HERE: change the title and description -->
+          <h3 class="project-title">Ballroom Floor Mograph</h3>
+          <p class="project-desc">Video is made by alight motion. It's a lyrics mograph of Neckdeep's song - December.</p>
+        </article>
+
+        <!-- ===== CARD 2 ===== -->
+        <article class="project-card">
+          <div class="video-wrap">
+            <video muted autoplay loop playsinline>
+              <source src="video 3.mp4" type="video/mp4">
+            </video>
+            <div class="play-hint">🔊 Tap to play with sound</div>
+          </div>
+          <h3 class="project-title">After Thought</h3>
+          <p class="project-desc">Typography video of After Thought song, using red and black theme to get the cool dark feeling.</p>
+        </article>
+
+        <!-- ===== CARD 3 ===== -->
+        <article class="project-card">
+          <div class="video-wrap">
+            <video muted autoplay loop playsinline>
+              <source src="video 7 thai.mp4" type="video/mp4">
+            </video>
+            <div class="play-hint">🔊 Tap to play with sound</div>
+          </div>
+          <h3 class="project-title">Vietnamese Typography Video</h3>
+          <p class="project-desc">By matching every word by word, it is still possible to edit and match the lyrics, even it is not english.</p>
+        </article>
+
+        <!-- ===== CARD 4 ===== -->
+        <article class="project-card">
+          <div class="video-wrap">
+            <video muted autoplay loop playsinline>
+              <source src="video 2.mp4" type="video/mp4">
+            </video>
+            <div class="play-hint">🔊 Tap to play with sound</div>
+          </div>
+          <h3 class="project-title">Dark core</h3>
+          <p class="project-desc">If you understand the japanese words in the video, you could see it is asking us to be alive.</p>
+        </article>
+
+        <!-- ===== CARD 5 ===== -->
+        <article class="project-card">
+          <div class="video-wrap">
+            <video muted autoplay loop playsinline>
+              <source src="video 6 rasul.mp4" type="video/mp4">
+            </video>
+            <div class="play-hint">🔊 Tap to play with sound</div>
+          </div>
+          <h3 class="project-title">Rasool Allah</h3>
+          <p class="project-desc">It's a short typography lyrics video of Haris J song - Rasool Allah with colorful lyrics style.</p>
+        </article>
+
+        <!-- ===== CARD 6 ===== -->
+        <article class="project-card">
+          <div class="video-wrap">
+            <video muted autoplay loop playsinline>
+              <source src="video 4.mp4" type="video/mp4">
+            </video>
+            <div class="play-hint">🔊 Tap to play with sound</div>
+          </div>
+          <h3 class="project-title">Gojek Fake Ads</h3>
+          <p class="project-desc">Made by alight motion, this is my first fake brand motion graphic. And soon there will be more, i will keep envolving.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <footer class="page-foot">&copy; 2026 Naldi.</footer>
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
